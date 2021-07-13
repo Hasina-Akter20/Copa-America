@@ -1,0 +1,83 @@
+/* Import Poppins font family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Common styles */
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  margin: 156px;
+}
+.fas {
+  font-size: 24px;
+  color: #ffffff;
+}
+/* First pasrt footer  */
+
+header {
+  background-color: #2d25a0;
+}
+/* Navber styles */
+.nav-ber {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 52px;
+  margin-left: 156px;
+  padding-right: 120px;
+}
+.nav a {
+  text-decoration: none;
+
+  padding-right: 36px;
+
+  color: #ffffff;
+}
+.longin p {
+  color: #ffffff;
+  margin: 0%;
+  padding: 0px;
+}
+/* Navber styles end */
+
+.football {
+  display: flex;
+  justify-content: center;
+  margin-left: 156px;
+  margin-right: 140px;
+  padding-top: 67px;
+}
+.title {
+  margin-bottom: 27px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.title h1 {
+  margin: 0%;
+}
+.live-button {
+  width: 168px;
+  height: 44px;
+  background-color: #e02c6d;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+.live-button p {
+  margin: 0%;
+  padding: 0%;
+}
+
+.football {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 102px;
+}
+.football img {
+  width: 100%;
+}
+
+/* End of first section */
+
