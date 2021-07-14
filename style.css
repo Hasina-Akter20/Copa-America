@@ -36,11 +36,11 @@ section {
 /* First part footer and animation */
 
 header {
-  background-color: #2D25A0;
+  background-color: #2d25a0;
   color: #ffffff;
   transition: background-color 1s;
 }
-.button{
+.button {
   transition: background-color 1s;
 }
 
@@ -137,40 +137,88 @@ header:hover .button {
 }
 
 /* Player section styles end */
+/* Latest news section style  started*/
 
-/* Footer style started */
-footer{
+.news-section {
+  margin-top: 158px;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.news-title {
+  font-size: 36px;
+  color: #2d25a0;
+}
+.news-section h1 {
+  margin: 0%;
+}
+.news-all {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
+}
+.news {
+  display: flex; 
+  margin: 7px 0px;
+}
+.thumb {
+  width: 400px;
+  padding-right: 30px;
+}
+.thumd-text {
+  width: 700px;
+  padding-right: 15px;
+}
+.thumb img {
+  width: 100%;
+}
+.thumd-text small {
+  color: #2d25a0;
+}
+
+.thumd-text h3 {
+  margin: 0%;
+  font-size: 30px;
+}
+.thumd-text p {
+  margin: 0%;
+  text-align: justify;
+}
+/* latest news section style end */
+/* Footer style started */
+footer {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   margin-top: 158px;
   margin-bottom: 63px;
 }
-.logo{
+.logo {
   width: 483.87px;
   height: 110px;
 }
-.logo img{
+.logo img {
   width: 100%;
 }
-.footer-icon{
+.footer-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;  
+  margin-top: 20px;
 }
-.footer-icon p{
+.footer-icon p {
   padding: 5px 10px;
   background-color: #e9ecec;
   border-radius: 30px;
   margin: 0px 10px;
 }
-.footer-icon .fab{
-  color: #969BAB;
+.footer-icon .fab {
+  color: #969bab;
   padding: 0%;
-  margin: 0%  
+  margin: 0%;
 }
-.copy-right{
+.copy-right {
   font-size: 20px;
 }
 /* Footer style end  */
+
+
+/* Visit  */
