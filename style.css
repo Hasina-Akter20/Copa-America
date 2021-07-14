@@ -33,7 +33,7 @@ section {
   margin: 0%;
   padding: 0%;
 }
-/* First pasrt footer and animation */
+/* First part footer and animation */
 
 header {
   background-color: #2D25A0;
@@ -137,3 +137,40 @@ header:hover .button {
 }
 
 /* Player section styles end */
+
+/* Footer style started */
+footer{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 158px;
+  margin-bottom: 63px;
+}
+.logo{
+  width: 483.87px;
+  height: 110px;
+}
+.logo img{
+  width: 100%;
+}
+.footer-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;  
+}
+.footer-icon p{
+  padding: 5px 10px;
+  background-color: #e9ecec;
+  border-radius: 30px;
+  margin: 0px 10px;
+}
+.footer-icon .fab{
+  color: #969BAB;
+  padding: 0%;
+  margin: 0%  
+}
+.copy-right{
+  font-size: 20px;
+}
+/* Footer style end  */
