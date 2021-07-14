@@ -7,38 +7,77 @@ body {
   font-family: "Poppins", sans-serif;
 }
 section {
-  margin: 156px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 .fas {
-  font-size: 24px;
-  color: #ffffff;
+  font-size: 23px;
 }
-/* First pasrt footer  */
+.button {
+  background-color: #e02c6d;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-text {
+  font-weight: bold;
+  padding: 0%;
+}
+.button i {
+  font-size: 20px;
+  margin: 0%;
+  padding: 0%;
+}
+.button p {
+  margin: 0%;
+  padding: 0%;
+}
+/* First pasrt footer and animation */
 
 header {
-  background-color: #2d25a0;
+  background-color: #2D25A0;
+  color: #ffffff;
+  transition: background-color 1s;
 }
+.button{
+  transition: background-color 1s;
+}
+
+header:hover {
+  background-color: #e84118;
+  animation-iteration-count: infinite;
+}
+header:hover .button {
+  background-color: #0097e6;
+}
+
 /* Navber styles */
 .nav-ber {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 52px;
   margin-left: 156px;
   padding-right: 120px;
 }
 .nav a {
   text-decoration: none;
-
   padding-right: 36px;
-
   color: #ffffff;
 }
-.longin p {
-  color: #ffffff;
+
+.longin {
+  width: 123px;
+  height: 44px;
   margin: 0%;
-  padding: 0px;
+  padding: 0%;
+}
+.longin .button-text {
+  margin-left: 8px;
 }
 /* Navber styles end */
+/* First section header */
 
 .football {
   display: flex;
@@ -55,21 +94,13 @@ header {
 .title h1 {
   margin: 0%;
 }
-.live-button {
+.copa-america .button {
   width: 168px;
   height: 44px;
-  background-color: #e02c6d;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 700;
 }
-.live-button p {
-  margin: 0%;
-  padding: 0%;
+.copa-america .button-text {
+  margin-right: 8px;
 }
-
 .football {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -80,4 +111,29 @@ header {
 }
 
 /* End of first section */
+/* Players section style start  */
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+  margin-top: 70px;
+}
+.player {
+  padding: 15px;
+  width: 330px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players p {
+  color: #6c6c6c;
+  text-align: justify;
+}
+.player-img img {
+  width: 100%;
+}
+.play-name {
+  font-weight: bold;
+  font-size: 28px;
+}
 
+/* Player section styles end */
