@@ -1,0 +1,24 @@
+@media only screen and (max-width: 688px) {
+    .nav{
+        display: none;
+    }
+    .for-mobile a{
+        color: white;
+        padding-right: 20px;
+        
+    }
+    .football{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px ;
+    }
+    main, footer{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 699px) {
+    .for-mobile{
+        display: none;
+    }
+}   
