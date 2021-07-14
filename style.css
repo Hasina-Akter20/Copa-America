@@ -40,9 +40,6 @@ header {
   color: #ffffff;
   transition: background-color 1s;
 }
-.button {
-  transition: background-color 1s;
-}
 
 header:hover {
   background-color: #e84118;
@@ -137,6 +134,50 @@ header:hover .button {
 }
 
 /* Player section styles end */
+
+/* Visit styles  */
+
+.visit-euro {
+  margin-top: 158px;
+  height: 600px;
+  background-image: url(images/visit.jpg);
+  background-size: cover;
+  color: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.visit {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 700px;
+  height: 550px;
+  margin: 0%;
+}
+.visit h1 {
+  font-size: 50px;
+  margin: 0%;
+}
+.visit h3 {
+  margin: 0%;
+  font-size: 20px;
+}
+
+.button-text {
+  margin-right: 8px;
+}
+.visit-button {
+  width: 150px;
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+.back-color {
+  background-color: #ff3e348f;
+  padding: 50px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* visit euro section style ended  */
 /* Latest news section style  started*/
 
 .news-section {
@@ -156,7 +197,7 @@ header:hover .button {
   flex-direction: column;
 }
 .news {
-  display: flex; 
+  display: flex;
   margin: 7px 0px;
 }
 .thumb {
@@ -218,7 +259,4 @@ footer {
 .copy-right {
   font-size: 20px;
 }
-/* Footer style end  */
-
-
-/* Visit  */
+/* Footer styles end  */
